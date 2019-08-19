@@ -23,6 +23,10 @@ For Each srcFilePath In fso.GetFolder(srcPath).files
     call createPartition(outputFile, "ParamPath")
     outputFile.WriteLine("var viewFilePath = '"&pluginPath&"\2048View';")
     outputFile.WriteLine("")
+    
+    call createPartition(outputFile, "FileSystemObject")
+    outputFile.WriteLine("var fso = new ActiveXObject('Scripting.FileSystemObject');");
+    outputFile.WriteLine("")
 
     For Each functionFilePath In fso.GetFolder(functionPath).files
         call createPartition(outputFile, functionFilePath.name)

@@ -28,6 +28,6 @@ C[4].Label=LEFT
 [Option]
 O[1].Section=Sakura2048
 O[1].Key=command
-O[1].Label=ã‚³ãƒžãƒ³ãƒ‰
+O[1].Label=ƒRƒ}ƒ“ƒh
 O[1].Type=Str
 O[1].Default=uldruldr
